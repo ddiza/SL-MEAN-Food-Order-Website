@@ -1,3 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+body{
+    background-color: #F3F4F6;
+}
+.bg-dark-transparent{
+    background-color: #f0e5cfc9
+    ;
+}
+.fs-30{
+    font-size: 30px;
+}
+.fs-50{
+    font-size: 50px;
+}
+html{
+   scroll-behavior: smooth;
+}
+/* header */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* takout start */
 body{
     background-color: #E3E7E8;
     font-family: system-ui;
@@ -127,3 +166,4 @@ header .shopping span{
 .listCart .count{
     margin: 0 10px;
 }
+/* takeout end */

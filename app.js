@@ -18,37 +18,37 @@ let products = [
         id: 1,
         name: 'Meat-2 Sides',
         image: '1.PNG',
-        price: 120000
+        price: 12
     },
     {
         id: 2,
         name: 'Wings & Dip',
         image: '2.PNG',
-        price: 120000
+        price: 12
     },
     {
         id: 3,
         name: 'Salad & Protein',
         image: '3.PNG',
-        price: 220000
+        price: 12
     },
     {
         id: 4,
-        name: 'Your Choice Soup',
+        name: 'Your Choice LG Soup',
         image: '4.PNG',
-        price: 123000
+        price: 10
     },
     {
         id: 5,
         name: 'Veg Salad',
         image: '5.PNG',
-        price: 320000
+        price: 10
     },
     {
         id: 6,
         name: '10" Pizza',
         image: '6.PNG',
-        price: 120000
+        price: 12
     }
 ];
 let listCarts  = [];
@@ -65,8 +65,8 @@ function initApp(){
     })
 }
 initApp();
-function addToCartd(key){
-    if(listCartds[key] == null){
+function addToCart(key){
+    if(listCarts[key] == null){
         // copy product form list to list cart
         listCarts[key] = JSON.parse(JSON.stringify(products[key]));
         listCarts[key].quantity = 1;
