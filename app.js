@@ -34,7 +34,7 @@ let products = [
     },
     {
         id: 4,
-        name: 'Your Choice LG Soup',
+        name: 'LG Soup Bowl',
         image: '4.PNG',
         price: 10
     },
