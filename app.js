@@ -65,8 +65,8 @@ function initApp(){
     })
 }
 initApp();
-function addToCart(key){
-    if(listCarts[key] == null){
+function addToCartd(key){
+    if(listCartds[key] == null){
         // copy product form list to list cart
         listCarts[key] = JSON.parse(JSON.stringify(products[key]));
         listCarts[key].quantity = 1;
